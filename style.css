@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    
+}
+
+
+
+
+
+
+#calc-buttons{
+   display: flex;
+   justify-content: center;
+ margin-top:500px ;
+   
+
+}
+#calc{
+    height: 50px;
+    width: 100px;
+    
+}
+#calls{
+ 
+    height: 35px;
+    width: 75px; 
+    
+}
+#calcs{
+    text-align: center;
+}
+
+
+ #calc2{
+     text-align: center;
+     
+     
+    
+ }
+
+
+    
+     
+ 
+ #calc3{
+     text-align: center;
+ }
