@@ -18,6 +18,5 @@ function divide (a,b){
     return a/b;
 }
 
-const display = document.getElementById("display");
-display.appendChild("calcs");
-
+const four = document.getElementsByClassName('four')
+four.value='4';
