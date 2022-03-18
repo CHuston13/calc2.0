@@ -1,22 +1,12 @@
-function add (a,b){
-    return a+b;
-}
+let display = document.getElementById('display');
 
-function subract (a,b){
-    return a-b;
-
-}
-
-
-
-function multiply (a,b){
-    return a*b;
-}
-
-
-function divide (a,b){
-    return a/b;
-}
-
-const four = document.getElementsByClassName('four')
-four.value='4';
+let buttons = Array.from(document.getElementsByClassName('button'));
+buttons.map(button => {
+    button.addEventListener('click',(e)=>{
+        switch(e.target.innerText){
+            default:
+                display.innerText += e.target.innerText;
+        }
+    })
+})
+console.log(buttons)
